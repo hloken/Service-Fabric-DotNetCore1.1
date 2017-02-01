@@ -29,6 +29,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\StatefulServiceWebAPI1\StatefulServiceWebAPI1.csproj" />
     <ProjectReference Include="..\Web1\Web1.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
